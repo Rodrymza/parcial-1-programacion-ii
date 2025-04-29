@@ -9,6 +9,22 @@ public class Biblioteca {
         this.usuarios = new ArrayList<>();
     }
 
+    public ArrayList<Publicacion> getPublicaciones() {
+        return publicaciones;
+    }
+
+    public void setPublicaciones(ArrayList<Publicacion> publicaciones) {
+        this.publicaciones = publicaciones;
+    }
+
+    public ArrayList<Usuario> getUsuarios() {
+        return usuarios;
+    }
+
+    public void setUsuarios(ArrayList<Usuario> usuarios) {
+        this.usuarios = usuarios;
+    }
+
     public void agregarUsuario(Usuario usuario) {
         usuarios.add(usuario);
     }

@@ -11,6 +11,30 @@ public class Prestamo {
         this.lineas = new ArrayList<>();
     }
 
+    public Date getFechaPrestamo() {
+        return fechaPrestamo;
+    }
+
+    public void setFechaPrestamo(Date fechaPrestamo) {
+        this.fechaPrestamo = fechaPrestamo;
+    }
+
+    public Date getFechaDevolucion() {
+        return fechaDevolucion;
+    }
+
+    public void setFechaDevolucion(Date fechaDevolucion) {
+        this.fechaDevolucion = fechaDevolucion;
+    }
+
+    public ArrayList<LineaPrestamo> getLineas() {
+        return lineas;
+    }
+
+    public void setLineas(ArrayList<LineaPrestamo> lineas) {
+        this.lineas = lineas;
+    }
+
     public void agregarLineaPrestamo(Ejemplar ejemplar) {
         if (ejemplar != null && ejemplar.estaDisponible()) {
             LineaPrestamo nuevaLinea = new LineaPrestamo();

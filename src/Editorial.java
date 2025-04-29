@@ -8,6 +8,7 @@ public class Editorial {
         this.direccion = direccion;
     }
 
+
     public String getNombre() {
         return nombre;
     }

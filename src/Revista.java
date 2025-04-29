@@ -9,4 +9,20 @@ public class Revista extends Publicacion{
         this.volumen = volumen;
         this.numero = numero;
     }
+
+    public int getNumero() {
+        return numero;
+    }
+
+    public void setNumero(int numero) {
+        this.numero = numero;
+    }
+
+    public int getVolumen() {
+        return volumen;
+    }
+
+    public void setVolumen(int volumen) {
+        this.volumen = volumen;
+    }
 }
