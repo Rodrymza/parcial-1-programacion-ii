@@ -1,2 +1,6 @@
-# parcial-1-programacion-ii
-Examen Parcial 1 Programacion 2, Ramirez Rodrigo
+Tecnicatura Universitaria en Programacion - UTN
+Comision 3
+Alumno: Ramirez Rodrigo
+Profesora: Rigoni C.
+
+Examen Parcial 1 Programacion 2
